@@ -1,0 +1,21 @@
+{
+  "name": "radar-oportunidades-academicas",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Radar pessoal de oportunidades acadêmicas (concurso docente) para JB — Onda 1: DOU Seção 3 + Telegram.",
+  "main": "radar.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "coletar": "node radar.js coletar",
+    "backfill": "node radar.js backfill",
+    "relatorio-backfill": "node radar.js relatorio-backfill",
+    "julgar": "node radar.js julgar",
+    "notificar": "node radar.js notificar",
+    "status": "node radar.js status",
+    "test": "node radar.js testar"
+  },
+  "dependencies": {}
+}

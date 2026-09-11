@@ -1,0 +1,62 @@
+# Radar de Oportunidades Acadêmicas — planilha-portal
+# Cada entrada abaixo foi conferida contra o código real (radar.js, noticias.js,
+# lib/store.js, lib/saude.js, lib/guarda-janela.js, lib/hipotese-if.js,
+# lib/backfill-progresso.js, lib-noticias/store-noticias.js, rodar-diario.bat,
+# _norman/snapshot.js, _norman/prova-portal.js) — não é lista genérica copiada.
+
+# --- Credencial ---
+# Token do Telegram + service account do Google Sheets (ver .env.example).
+.env
+
+# --- Store runtime ---
+# `data/` é ONDE TODO estado de execução do robô vive: lib/store.js (JSONL da
+# trilha vaga), lib-noticias/store-noticias.js (JSONL da trilha notícia),
+# lib/saude.js (log de saúde do coletor), lib/guarda-janela.js (janela
+# deslizante por trilha), lib/hipotese-if.js (amostra de backfill),
+# lib/backfill-progresso.js e o BACKLOG_MARKER_PATH de radar.js — todos
+# regeneráveis rodando o robô; nenhum é conteúdo autoral.
+data/
+
+# --- Logs ---
+# rodar-diario.bat grava tudo (append) em logs/rodar-diario.log.
+logs/
+*.log
+
+# --- Escritório temporário ---
+tmp/
+
+# --- Node (o projeto tem ZERO dependências por doutrina, mas cobre o caso
+# de alguém instalar algo localmente por engano) ---
+node_modules/
+
+# --- Relatórios gerados contra a planilha de JB ---
+# radar.js escreve RELATORIO-BACKFILL.md e RELATORIO-JB.md na raiz — são
+# saída de execução real (nomes/vagas/prazos), nunca artefato de repositório.
+/RELATORIO-BACKFILL.md
+/RELATORIO-JB.md
+
+# --- Config pessoal derivada dos templates ---
+# Só os `.example.json` (e as três referências genéricas abaixo) são
+# conteúdo do repositório. `config/keywords.json`, `keywords-mercado.json`,
+# `keywords-noticias.json`, `negativos.json` e `perfil.json` nascem de
+# `cp *.example.json` e carregam critério pessoal de quem instalou — nunca
+# devem ser versionados por cima do template.
+config/*.json
+!config/*.example.json
+!config/notificacao.json
+!config/saude.json
+!config/universidades-uf.json
+
+# --- Provas de higiene ---
+# A lista de termos proibidos NÃO pode ser versionada: um varredor que
+# publica o que proíbe publica a própria lista (ver provas/higiene.js).
+provas/termos-privados.json
+
+# --- Artefatos de depuração do _norman/ ---
+# _norman/snapshot.js escreve `_norman/<rotulo>.json` (dump ad-hoc da
+# planilha); _norman/estado.js grava `_norman/.carimbo-original.json` e
+# `_norman/.carimbo-noticia-original.json` (snapshot pré-restauração);
+# _norman/prova-portal.js exporta PDF em `_norman/_prova-final/`. Nenhum é
+# fonte — todos regeneráveis contra a planilha viva.
+_norman/*.json
+_norman/_prova-final/

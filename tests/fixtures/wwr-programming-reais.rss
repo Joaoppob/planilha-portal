@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss">
+  <channel>
+    <title>We Work Remotely: Programming Jobs</title>
+    <link>https://weworkremotely.com/categories/remote-programming-jobs.rss</link>
+    <description>We Work Remotely: Design Jobs</description>
+    <language>en-US</language>
+    <ttl>60</ttl>
+<item>
+      <title>Toptal: Data Scientist for Top Cosmetic firm</title>
+      <region>Anywhere in the World</region>
+      <category>Full-Stack Programming</category>
+      <description>
+
+&lt;p&gt;
+  &lt;strong&gt;Headquarters:&lt;/strong&gt; 
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;&lt;br&gt;We are seeking a Data Scientist to analyze anonymized consumer interaction data and uncover patterns in unstructured language across call center and cross-channel conversation ...(truncado para fixture de teste)...</description>
+      <pubDate>Tue, 11 Aug 2026 12:40:35 +0000</pubDate>
+      <guid>https://weworkremotely.com/remote-jobs/toptal-data-scientist-for-top-cosmetic-firm</guid>
+      <link>https://weworkremotely.com/remote-jobs/toptal-data-scientist-for-top-cosmetic-firm</link>
+    </item>
+  </channel>
+</rss>

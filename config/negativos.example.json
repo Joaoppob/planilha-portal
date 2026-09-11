@@ -1,0 +1,10 @@
+{
+  "_comentario": "TEMPLATE — copie para config/negativos.json e RECALIBRE. Termos que, se encontrados no texto de um item que já passou no filtro de área, indicam falso positivo (cargo técnico/administrativo, não docente). Vetam o item para veredito 'fora' no estágio 2. O conjunto abaixo é uma amostra pequena e genérica — rode contra o seu backlog real e adicione os falsos positivos que você observar (edital usa nomenclatura própria por instituição/categoria de vínculo).",
+  "termos": [
+    "técnico em informática",
+    "técnico administrativo",
+    "assistente administrativo",
+    "auxiliar administrativo",
+    "agente administrativo"
+  ]
+}

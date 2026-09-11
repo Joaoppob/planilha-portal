@@ -1,0 +1,181 @@
+[
+  {
+    "id": "ufscar-004-26-41-design",
+    "descricao": "UFSCar, Edital 4/2026, subedital 004/26.41 — Design e Mídias digitais (Sorocaba). O CASO que motivou a inversão do pipeline (item 3, briefing Onda 1.6): preview genérico, área só aparece na tabela do texto integral. Falso negativo no pipeline antigo (zero itens coletados em 12/08/2026).",
+    "dataPublicacao": "12-08-2026",
+    "rawItem": {
+      "title": "Edital nº 4, de 11 de agosto de 2026",
+      "content": "Edital nº 4, de 11 de agosto de 2026 CONCURSO PÚBLICO DOCENTE A Pró-Reitora de Gestão de Pessoas da Universidade Federal de São Carlos, no uso das atribuições que lhe confere a Portaria GR nº 4809, de 27/01/2021, publicada no DOU de 29/01/2021 e tendo em vista o que estabelecem a Lei nº 8.112 de 11/12/1990, a Lei nº 12.772 de 28/12/2012, a Lei nº 12.863 de 24/09/2013, o Decreto nº 9.739 de 28/03/2...",
+      "hierarchyStr": "Ministério da Educação/Fundação Universidade Federal de São Carlos/Pró-Reitoria de Gestão de Pessoas",
+      "hierarchyList": [
+        "Ministério da Educação",
+        "Fundação Universidade Federal de São Carlos",
+        "Pró-Reitoria de Gestão de Pessoas"
+      ],
+      "artType": "Edital de Concurso Público",
+      "pubDate": "12/08/2026",
+      "urlTitle": "edital-n-4-de-11-de-agosto-de-2026-724927473"
+    },
+    "textoEnriquecido": "Quadro I Código/Cargo/Depto/Campus Vagas Área Subárea Requisitos Mínimos Regime de trabalho Taxa de inscriçao 004/26.01 Professor Assistente A Departamento de Engenharia de Produção - DEP São Carlos 1 Organizações Instituições, Organizações e Trabalho Título de Doutor em Engenharia de Produção, ou Título de Doutor em Administração, ou Título de Doutor em Ciências Sociais, ou Título de Doutor em Sociologia, ou Título de Doutor em Antropologia, ou Título de Doutor em Ciência Política, ou Título de Doutor em Ciência Tecnologia e Sociedade, ou Título de Doutor em Política Científica e Tecnológica DE R$ 275,00 004/26.02 Professor Assistente A Departamento de Engenharia de Produção - DEP São Carlos 1 Engenharia de Produção Tecnologia e Trabalho Doutorado em Engenharia. DE R$ 275,00 (demais linhas do Quadro I omitidas neste fixture — excerto real, não integral) 004/26.39 Professor Assistente A Departamento de Ciências Humanas e Educação - DCHE-So Sorocaba 1 Ciências Humanas Mídia, Tecnologias e Sociedade Doutorado em Programas pertencentes às seguintes grandes áreas da CAPES: Ciências Sociais Aplicadas; Ciências Humanas; Linguística, Letras e Artes; Multidisciplinar. DE R$ 275,00 004/26.40 Professor Assistente A Departamento de Ciências Humanas e Educação - DCHE-So Sorocaba 2 Ciência da Informação, Ciência de Dados e Inteligência Artificial Algoritmo e Sociedade Doutorado em programas pertencentes às seguintes Grandes Áreas da CAPES: Ciências Sociais Aplicadas, Ciências Exatas e da Terra, Engenharias ou Multidisciplinar. DE R$ 275,00 004/26.41 Professor Assistente A Departamento de Ciências Humanas e Educação - DCHE-So Sorocaba 1 Design e Mídias digitais Inteligência Artificial, Interface de Usuário (UI), Experiência do Usuário (UX), Design digital Título de Doutor vinculado a uma das seguintes grandes áreas de avaliação da CAPES: Ciências Exatas e da Terra; ou Ciências Sociais Aplicadas; ou Ciências Humanas; ou Linguística, ou Letras e Artes; ou Multidisciplinar DE R$ 275,00 004/26.42 Professor Assistente A Departamento de Ciências Humanas e Educação - DCHE-So Sorocaba 1 Linguística, Letras ou Língua Portuguesa Letramentos, Multiletramentos e Letramento Digital Título de Doutor em Linguística, OU Letras, OU Língua Portuguesa. DE R$ 275,00 004/26.58 Professor Assistente A Centro de Artes, Humanidades e Tecnologia - CAHT São José do Rio Preto 1 Design /Desenho Industrial Materiais e Tecnologias Título de Doutor em uma das seguintes áreas de conhecimento CAPES: Design (61200000), ou Desenho Industrial (61200000), ou Engenharia de Produção (30800005), ou Engenharia Mecânica (30500001), ou Engenharia de Manufatura, ou Engenharia de Materiais (30300002). DE R$ 275,00",
+    "esperado": {
+      "orgao": "Fundação Universidade Federal de São Carlos",
+      "subedital": "004/26.41",
+      "area": "Design",
+      "campus": "Sorocaba",
+      "vagas": 1,
+      "titulacao_exigida": "doutorado"
+    }
+  },
+  {
+    "id": "ufscar-004-26-40-ia-dados",
+    "descricao": "UFSCar, mesmo edital 4/2026, subedital 004/26.40 — Ciência da Informação/Ciência de Dados/IA (Sorocaba). Segundo checkpoint do MESMO edital-guarda-chuva — prova que um edital com múltiplos subeditais de área distinta vira múltiplos itens próprios, não um alerta genérico.",
+    "dataPublicacao": "12-08-2026",
+    "rawItem": {
+      "title": "Edital nº 4, de 11 de agosto de 2026",
+      "content": "Edital nº 4, de 11 de agosto de 2026 CONCURSO PÚBLICO DOCENTE A Pró-Reitora de Gestão de Pessoas da Universidade Federal de São Carlos, no uso das atribuições que lhe confere a Portaria GR nº 4809, de 27/01/2021, publicada no DOU de 29/01/2021 e tendo em vista o que estabelecem a Lei nº 8.112 de 11/12/1990, a Lei nº 12.772 de 28/12/2012, a Lei nº 12.863 de 24/09/2013, o Decreto nº 9.739 de 28/03/2...",
+      "hierarchyStr": "Ministério da Educação/Fundação Universidade Federal de São Carlos/Pró-Reitoria de Gestão de Pessoas",
+      "hierarchyList": [
+        "Ministério da Educação",
+        "Fundação Universidade Federal de São Carlos",
+        "Pró-Reitoria de Gestão de Pessoas"
+      ],
+      "artType": "Edital de Concurso Público",
+      "pubDate": "12/08/2026",
+      "urlTitle": "edital-n-4-de-11-de-agosto-de-2026-724927473"
+    },
+    "textoEnriquecido": "Quadro I Código/Cargo/Depto/Campus Vagas Área Subárea Requisitos Mínimos Regime de trabalho Taxa de inscriçao 004/26.01 Professor Assistente A Departamento de Engenharia de Produção - DEP São Carlos 1 Organizações Instituições, Organizações e Trabalho Título de Doutor em Engenharia de Produção, ou Título de Doutor em Administração, ou Título de Doutor em Ciências Sociais, ou Título de Doutor em Sociologia, ou Título de Doutor em Antropologia, ou Título de Doutor em Ciência Política, ou Título de Doutor em Ciência Tecnologia e Sociedade, ou Título de Doutor em Política Científica e Tecnológica DE R$ 275,00 004/26.02 Professor Assistente A Departamento de Engenharia de Produção - DEP São Carlos 1 Engenharia de Produção Tecnologia e Trabalho Doutorado em Engenharia. DE R$ 275,00 (demais linhas do Quadro I omitidas neste fixture — excerto real, não integral) 004/26.39 Professor Assistente A Departamento de Ciências Humanas e Educação - DCHE-So Sorocaba 1 Ciências Humanas Mídia, Tecnologias e Sociedade Doutorado em Programas pertencentes às seguintes grandes áreas da CAPES: Ciências Sociais Aplicadas; Ciências Humanas; Linguística, Letras e Artes; Multidisciplinar. DE R$ 275,00 004/26.40 Professor Assistente A Departamento de Ciências Humanas e Educação - DCHE-So Sorocaba 2 Ciência da Informação, Ciência de Dados e Inteligência Artificial Algoritmo e Sociedade Doutorado em programas pertencentes às seguintes Grandes Áreas da CAPES: Ciências Sociais Aplicadas, Ciências Exatas e da Terra, Engenharias ou Multidisciplinar. DE R$ 275,00 004/26.41 Professor Assistente A Departamento de Ciências Humanas e Educação - DCHE-So Sorocaba 1 Design e Mídias digitais Inteligência Artificial, Interface de Usuário (UI), Experiência do Usuário (UX), Design digital Título de Doutor vinculado a uma das seguintes grandes áreas de avaliação da CAPES: Ciências Exatas e da Terra; ou Ciências Sociais Aplicadas; ou Ciências Humanas; ou Linguística, ou Letras e Artes; ou Multidisciplinar DE R$ 275,00 004/26.42 Professor Assistente A Departamento de Ciências Humanas e Educação - DCHE-So Sorocaba 1 Linguística, Letras ou Língua Portuguesa Letramentos, Multiletramentos e Letramento Digital Título de Doutor em Linguística, OU Letras, OU Língua Portuguesa. DE R$ 275,00 004/26.58 Professor Assistente A Centro de Artes, Humanidades e Tecnologia - CAHT São José do Rio Preto 1 Design /Desenho Industrial Materiais e Tecnologias Título de Doutor em uma das seguintes áreas de conhecimento CAPES: Design (61200000), ou Desenho Industrial (61200000), ou Engenharia de Produção (30800005), ou Engenharia Mecânica (30500001), ou Engenharia de Manufatura, ou Engenharia de Materiais (30300002). DE R$ 275,00",
+    "esperado": {
+      "orgao": "Fundação Universidade Federal de São Carlos",
+      "subedital": "004/26.40",
+      "area": "Computação/IA",
+      "campus": "Sorocaba",
+      "vagas": 2,
+      "titulacao_exigida": "doutorado"
+    }
+  },
+  {
+    "id": "ufg-24-2025-ciencia-computacao",
+    "descricao": "UFG, Edital 24/2025 (15/09/2025), Tecnologia da Informação/Ciência da Computação, Câmpus Cidade Ocidental. Segundo edital guarda-chuva real (formato de tabela DIFERENTE do da UFSCar — códigos IIG/CCO, não NNN/AA.NN) — falso negativo descoberto por varredura manual; prova que o bug não era exclusivo da UFSCar. dividirSubeditais NÃO reconhece este formato (fora de escopo desta onda) — o item é encontrado pelo caminho de edital único (estágio 3 sobre o texto inteiro), não splitado por subedital. Onda 1.7 (item 1 do briefing — dado errado é pior que dado faltante): este é justamente o texto real que provou o risco de 'primeiro match errado' — 2 números de processo/SEI distintos no texto (uma linha de Segurança Pública, outra de Computação) fazem `pareceMultiplosItensNaoReconhecidos` marcar o item como ambíguo; area/subarea saem `null` (não mais 'Computação/IA' assumido) e `extracao: 'formato_nao_reconhecido'` entra — o item continua sendo ENCONTRADO (recall preservado, é notificado com o link), só não afirma mais uma área que pode não ser a certa.",
+    "dataPublicacao": "15-09-2025",
+    "rawItem": {
+      "title": "EDITAL nº 24, DE 12 DE SETEMBRO DE 2025 Concurso Público de provas e títulos para preenchimento de vaga(s) de Professor do Magistério Superior",
+      "content": "EDITAL nº 24, DE 12 DE SETEMBRO DE 2025 Concurso Público de provas e títulos para preenchimento de vaga(s) de Professor do Magistério Superior A Reitora da Universidade Federal de Goiás, usando de suas atribuições estatutárias e regimentais, tendo em vista o Edital de Condições Gerais nº 23/2025, torna públicas as condições específicas para realização de concurso público de provas e títulos para p...",
+      "hierarchyStr": "Ministério da Educação/Universidade Federal de Goiás/Pró-Reitoria de Gestão de Pessoas/Diretora de Administração de Pessoas",
+      "hierarchyList": [
+        "Ministério da Educação",
+        "Universidade Federal de Goiás",
+        "Pró-Reitoria de Gestão de Pessoas",
+        "Diretora de Administração de Pessoas"
+      ],
+      "artType": "Edital de Concurso Público",
+      "pubDate": "15/09/2025",
+      "urlTitle": "edital-n-24-de-12-de-setembro-de-2025-concurso-publico-de-provas-e-titulos-para-preenchimento-de-vaga-s-de-professor-do-magisterio-superior-656022505"
+    },
+    "textoEnriquecido": "2&nbsp; (2) &nbsp; 09 DE Câmpus Cidade Ocidental Segurança Pública e Direitos Humanos Graduação em Sociologia (Bacharelado) ou Administração Pública (Bacharelado) e Doutorado em Sociologia ou Educação ou Direitos Humanos 26/09/2025 a 15/10/2025 IIG/CCO 23070.032012/2025-31 02&nbsp; (2) &nbsp; 09 DE Câmpus Cidade Ocidental Tecnologia da Informação Graduação em Ciência da Computação ou áreas afins e Doutorado em Ciência da Computação ou áreas afins 26/09/2025 a 15/10/2025 IIG/CCO 23070.035051/2025-91 01 05 DE Câmpus da Região Metropolitana de Goiânia Matemática Aplicada e Computacional Doutorado em Matemática Aplicada ou Doutorado em Matemática Aplicada e Computacional ou Doutorado em 26/09/20",
+    "esperado": {
+      "orgao": "Universidade Federal de Goiás",
+      "subedital": null,
+      "area": null,
+      "extracao": "formato_nao_reconhecido",
+      "titulacao_exigida": "doutorado"
+    }
+  },
+  {
+    "id": "if-goiano-substituto-informatica",
+    "descricao": "Regressão: já estava nos 26 itens do backfill original (top score #1). IF Goiano, Campus Cristalina, processo seletivo simplificado professor substituto Informática.",
+    "dataPublicacao": "22-12-2025",
+    "rawItem": {
+      "title": "EDITAL N 20, DE 19 DE DEZEMBRO DE 2025",
+      "content": "EDITAL N 20, DE 19 DE DEZEMBRO DE 2025 PROCESSO SELETIVO SIMPLIFICADO PARA CONTRATACAO DE PROFESSOR(A) SUBSTITUTO NA AREA DE ADMINISTRACAO, INFORMATICA E LINGUA PORTUGUESA/LITERATURA DO IF GOIANO - CAMPUS CRISTALINA O DIRETOR-GERAL DO INSTITUTO FEDERAL GOIANO CAMPUS CRISTALINA, no uso de suas atribuicoes legais, conferidas pela Portaria 1653, de 14/03/2024, publicada no DOU de 15/03/2024, bem como...",
+      "hierarchyStr": "Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia Goiano/Campus Cristalina",
+      "hierarchyList": [
+        "Ministério da Educação",
+        "Instituto Federal de Educação, Ciência e Tecnologia Goiano",
+        "Campus Cristalina"
+      ],
+      "artType": "Edital de Processo Seletivo",
+      "pubDate": "22/12/2025",
+      "urlTitle": "edital-n-20-de-19-de-dezembro-de-2025-677191251"
+    },
+    "textoEnriquecido": "EDITAL N 20, DE 19 DE DEZEMBRO DE 2025 PROCESSO SELETIVO SIMPLIFICADO PARA CONTRATACAO DE PROFESSOR(A) SUBSTITUTO NA AREA DE ADMINISTRACAO, INFORMATICA E LINGUA PORTUGUESA/LITERATURA DO IF GOIANO - CAMPUS CRISTALINA O DIRETOR-GERAL DO INSTITUTO FEDERAL GOIANO CAMPUS CRISTALINA, no uso de suas atribuicoes legais, conferidas pela Portaria 1653, de 14/03/2024, publicada no DOU de 15/03/2024, bem como pela competencia delegada pelo Reitor do IF Goiano por meio da Portaria n 2661 de 27/05/2024, torna publico a ABERTURA DE INSCRICOES para o PROCESSO SELETIVO SIMPLIFICADO, com vistas A contratacao de PROFESSOR SUBSTITUTO, POR TEMPO DETERMINADO, para o Campus Cristalina do Instituto Federal de Educacao, Ciencia e Tecnologia Goiano (IF Goiano) para atender a necessidade temporaria de excepcional interesse publico do IF Goiano, conforme Processo N 23731.000589.2025-53 nos termos do art. 2, IV da Lei n 8.745/93, o qual se realizara sob as condicoes a seguir e cronograma: Area RT* Area de atuação NV Escolaridade Exigida/ Titulacao Administracao 40h Administracao/Gestao do Agronegocio (Tecnico Integrado ao Ensino Medio e Ensino Superior) 01 Graduacao em Administracao ou Administracao de Empresas ou Tecnologo em Agronegocio ou Graduacao em Economia ou Tecnologo em Gestao de Agronegocios. Informatica 40h Informatica (Tecnico Integrado ao Ensino Medio e Ensino Superior) 01 Graduacao em Ciencia da Computacao ou Engenharias: de Software ou Controle e Automacao ou Eletronica ou Computacao ou Mecatronica ou Eletrica, ou Matematica Industrial, Graduacao em Sistemas de Informacao ou Graduacao em Gestao da Tecnologia da Informacao ou Graduacao em Sistemas para Internet ou Licenciatura em Informatica ou Computacao ou Tecnologo em Redes de Computadores ou Analise e Desenvolvimento de Sistemas. Lingua Portuguesa/Literatura 40h Lingua Portuguesa/Literatura (Tecnico Integrado ao Ensino Medio e Ensino Superior) 01 Licenciatura em Letras - Portugues ou Bacharelado em Letras - Portugues. RT: regime de trabalho; NV: numero de vagas. 1.A inscricao sera realizada unica e exclusivamente via internet, no endereco eletronico do IF Goiano Campus Cristalina ps.ifgoiano.edu.br, no periodo de 23/12/2025 ate as 23h59min do dia 11/01/2026 (horario de Brasilia); 2. O candidato tera direito a apenas uma inscricao no processo seletivo simplificado referente a este Edital; 3. Informacoes sobre o processo seletivo simplificado estarao disponiveis no endereco eletronico do IF Goiano Campus Cristalina ps.ifgoiano.edu.br/cristalina; 4. E de inteira responsabilidade do candidato, acompanhar a publicacao de todos os atos, editais e comunicados referentes a este Processo Seletivo Simplificado, os quais serao divulgados na internet, no endereco eletronico ps.ifgoiano.edu.br; 5. Os turnos de trabalho serao estabelecidos pela Direcao do IF Goiano - Campus Cristalina, podendo ser matutino, vespertino e noturno; 6. O Processo Seletivo Simplificado tera a validade minima de 6 meses e maxima estipulada conforme o art. 4 da Lei 8.745, de 1993, contada a partir da data de assinatura do primeiro contrato. 7. A integra do Edital estara disponivel no endereco eletronico ps.ifgoiano.edu.br; Eduardo Silva Vasconcelos",
+    "esperado": {
+      "orgao": "Instituto Federal Goiano",
+      "subedital": null,
+      "area": "Computação/IA",
+      "titulacao_exigida": "graduacao"
+    }
+  },
+  {
+    "id": "ufmt-substituto-computacao",
+    "descricao": "Regressão: já estava nos 26 itens do backfill original. UFMT, Campus Várzea Grande, professor substituto Ciência da Computação, doutorado.",
+    "dataPublicacao": "05-11-2025",
+    "rawItem": {
+      "title": "EDITAL Nº 3, DE 3 DE NOVEMBRO DE 2025",
+      "content": "EDITAL Nº 3, DE 3 DE NOVEMBRO DE 2025 PROCESSO SELETIVO SIMPLIFICADO PARA CONTRATAÇÃO DE PROFESSOR SUBSTITUTO A Universidade Federal de Mato Grosso, por meio do Departamento de Engenharia de Computação e Automação do Campus de Várzea Grande, torna público o presente Edital de abertura de inscrição de PROCESSO SELETIVO para contratação de PROFESSOR SUBSTITUTO, sob a égide da Lei nº 8.745/93 de 09/1...",
+      "hierarchyStr": "Ministério da Educação/Fundação Universidade Federal de Mato Grosso/Campus Universitário de Várzea Grande/Faculdade de Engenharia VG/Departamento de Engenharia de Computação e Automação VG",
+      "hierarchyList": [
+        "Ministério da Educação",
+        "Fundação Universidade Federal de Mato Grosso",
+        "Campus Universitário de Várzea Grande",
+        "Faculdade de Engenharia VG",
+        "Departamento de Engenharia de Computação e Automação VG"
+      ],
+      "artType": "Edital de Processo Seletivo",
+      "pubDate": "05/11/2025",
+      "urlTitle": "edital-n-3-de-3-de-novembro-de-2025-666895835"
+    },
+    "textoEnriquecido": "EDITAL Nº 3, DE 3 DE NOVEMBRO DE 2025 PROCESSO SELETIVO SIMPLIFICADO PARA CONTRATAÇÃO DE PROFESSOR SUBSTITUTO A Universidade Federal de Mato Grosso, por meio do Departamento de Engenharia de Computação e Automação do Campus de Várzea Grande, torna público o presente Edital de abertura de inscrição de PROCESSO SELETIVO para contratação de PROFESSOR SUBSTITUTO, sob a égide da Lei nº 8.745/93 de 09/12/93, conforme a seguir: Área de Conhecimento: Ciência da Computação - Regime de Trabalho: 40 (quarenta) horas semanais / 01 (uma) vaga. Requisito básico: Graduação, ou especialização, ou mestrado, ou doutorado em Ciência da Computação ou Engenharia de Computação. Remuneração (VB+RT): Graduação: Remuneração (VB+RT): Graduação: R$ 4.326,60 / Especialização: R$ 4.975,59 / Mestrado: R$ 5.949,07 / Doutorado: R$ 8.058,29. Vigência do Contrato: Até 06 (seis) meses - com possibilidade de prorrogação. Período e Local das Inscrições: Período: 14 a 18/11/2025, das 00h às 23h59min Sistema Eletrônico de Informação (SEI), pela página oficial da UFMT. Link para acesso como usuário Externo: bit.ly/profsubufmt. Informações pelo e-mail: dca.faeng@ufmt.br. A versão completa do Edital está disponível no site www.ufmt.br menu Editais / Seleção / Professor - Substituto e Temporário. ALINE FLAVIA NONATO DA COSTA MORO Chefe do Departamento de Engenharia de Computação e Automação",
+    "esperado": {
+      "orgao": "Universidade Federal de Mato Grosso",
+      "subedital": null,
+      "area": "Computação/IA",
+      "titulacao_exigida": "doutorado"
+    }
+  },
+  {
+    "id": "ufes-retificacao-computacao",
+    "descricao": "Regressão: já estava nos 26 itens do backfill original. UFES, retificação de datas de prova, Departamento de Computação/CCENS.",
+    "dataPublicacao": "27-03-2026",
+    "rawItem": {
+      "title": "EDITAL Nº 24, DE 26 DE MARÇO DE 2026",
+      "content": "EDITAL Nº 24, DE 26 DE MARÇO DE 2026 O Reitor da Universidade Federal do Espírito Santo, usando de suas atribuições, torna público a retificação do concurso público para Professor do Magistério Superior, regido pelo Edital nº 124/2025-R, publicado no DOU de 23 de dezembro de 2025, seção 3, páginas 104 a 114, conforme segue: ALTERAR prováveis datas das provas para o Departamento de Computação/CCENS...",
+      "hierarchyStr": "Ministério da Educação/Universidade Federal do Espírito Santo",
+      "hierarchyList": [
+        "Ministério da Educação",
+        "Universidade Federal do Espírito Santo"
+      ],
+      "artType": "Edital de Concurso Público",
+      "pubDate": "27/03/2026",
+      "urlTitle": "edital-n-24-de-26-de-marco-de-2026-695861001"
+    },
+    "textoEnriquecido": "EDITAL Nº 24, DE 26 DE MARÇO DE 2026 O Reitor da Universidade Federal do Espírito Santo, usando de suas atribuições, torna público a retificação do concurso público para Professor do Magistério Superior, regido pelo Edital nº 124/2025-R, publicado no DOU de 23 de dezembro de 2025, seção 3, páginas 104 a 114, conforme segue: ALTERAR prováveis datas das provas para o Departamento de Computação/CCENS, área/subárea Ciência da Computação (1.03.00.00-7)/Processamento Gráfico (1.03.03.05-7), item 9.2. do edital, para onde se lê: 9.2. Prováveis datas das provas: a) Prova escrita - 04/05/2026 - Eliminatória e classificatória b) Prova de aptidão didática - 06/05/2026 - Eliminatória e classificatória c) Prova de títulos - 07/05/2026 - Classificatória d) Prova de plano de trabalho - 08/05/2026 - Classificatória Leia-se: 9.2. Prováveis datas das provas: a) Prova escrita - 11/05/2026 - Eliminatória e classificatória b) Prova de aptidão didática - 13/05/2026 - Eliminatória e classificatória c) Prova de títulos - 14/05/2026 - Classificatória d) Prova de plano de trabalho - 14/05/2026 - Classificatória Os demais itens permanecem inalterados. EUSTÁQUIO VINICIUS RIBEIRO DE CASTRO",
+    "esperado": {
+      "orgao": "Universidade Federal do Espírito Santo",
+      "subedital": null,
+      "area": "Computação/IA"
+    }
+  },
+  {
+    "id": "ifpi-homologacao-informatica",
+    "descricao": "Regressão: mesmo padrão (IFPI) já presente 3x nos 26 itens originais. Homologação de resultado, professor substituto Informática, Campus Angical.",
+    "dataPublicacao": "03-11-2025",
+    "rawItem": {
+      "title": "EDITAL nº 60 GDG/DG-ANGICAL/CAANG/IFPI, de 31 de outubro de 2025",
+      "content": "EDITAL nº 60 GDG/DG-ANGICAL/CAANG/IFPI, de 31 de outubro de 2025 A DIRETORA-GERAL do Instituto Federal do Piauí - Campus Angical do Piauí, no uso de suas atribuições legais, torna público a HOMOLOGAÇÃO DO RESULTADO FINAL do Processo Seletivo Simplificado destinado à contratação, por tempo determinado, de Professor(a) do Ensino Básico, Técnico e Tecnológico Substituto da Área de Informática, nos te...",
+      "hierarchyStr": "Ministério da Educação/Instituto Federal de Educação, Ciência e Tecnologia do Piauí",
+      "hierarchyList": [
+        "Ministério da Educação",
+        "Instituto Federal de Educação, Ciência e Tecnologia do Piauí"
+      ],
+      "artType": "Edital de Processo Seletivo",
+      "pubDate": "03/11/2025",
+      "urlTitle": "edital-n-60-gdg/dg-angical/caang/ifpi-de-31-de-outubro-de-2025-666319300"
+    },
+    "textoEnriquecido": "EDITAL nº 60 GDG/DG-ANGICAL/CAANG/IFPI, de 31 de outubro de 2025 A DIRETORA-GERAL do Instituto Federal do Piauí - Campus Angical do Piauí, no uso de suas atribuições legais, torna público a HOMOLOGAÇÃO DO RESULTADO FINAL do Processo Seletivo Simplificado destinado à contratação, por tempo determinado, de Professor(a) do Ensino Básico, Técnico e Tecnológico Substituto da Área de Informática, nos termos do EDITAL 44/2025 - GDG/DG-ANGICAL/CAANG/IFPI, de 13 de outubro de 2025, para atender à necessidade acadêmica e pedagógica temporária da instituição, nos termos da Lei nº 12.425, de 17/06/2011 (DOU de 20/06/11), e alterações introduzidas pelas Leis nº 9.849/1999, 11.748/2008, 12.425/2011, 12.772/2012 e demais alterações. INFORMÁTICA - ANGICAL ORD. NOME NOTA DOS TÍTULOS NOTA DA DIDÁTICA MÉDIA SITUAÇÃO 01 JULIO JOSE DA SILVA JUNIOR 32 97,6 64,8 APROVADO 02 ELTONI ALVES GUIMARÃES 56,5 70,0 63,25 CLASSIFICADO 03 ISAAC CESAR PEREIRA CARDOSO JUNIOR 21 89,8 55,4 CLASSIFICADO 04 AUGUSTO FRANCO FERREIRA SOARES 3,2 94,2 48,7 CLASSIFICADO SAMARA MARIA VIANA DA SILVA LACERDA",
+    "esperado": {
+      "orgao": "Instituto Federal do Piauí",
+      "subedital": null,
+      "area": "Computação/IA"
+    }
+  }
+]

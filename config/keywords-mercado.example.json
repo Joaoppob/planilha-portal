@@ -1,0 +1,32 @@
+{
+  "_comentario": "TEMPLATE — copie para config/keywords-mercado.json e RECALIBRE. Trilha MERCADO (vagas de empresa, não concurso docente) — config isolada de config/keywords.json. Duas listas com propósitos distintos: `termos_busca` alimenta a QUERY da API da Gupy (fontes/gupy.js) — precisa ser termo curto/literal que apareça em TÍTULO de vaga real (a API faz match tipo LIKE, não busca semântica; frase longa demais tende a retornar 0, termo genérico demais retorna centenas fora de escopo). `termos_aderencia` alimenta o SCORE (lib/score-mercado.js avaliarAderencia) e roda sobre título+descrição já em mãos, então pode ser mais generoso. O conjunto abaixo é uma amostra pequena — troque pelos termos da SUA área.",
+  "termos_busca": [
+    "UX",
+    "UI",
+    "Product Designer",
+    "Front-end",
+    "React"
+  ],
+  "_comentario_termos_busca_programathor": "Segunda fonte (ProgramaThor, fontes/programathor.js) usa PÁGINA DE CATEGORIA por slug de stack (`/jobs-{slug}`), não busca livre por termo — cada slug precisa ser conferido manualmente contra o site (existe página, tem vaga de verdade) antes de entrar aqui.",
+  "termos_busca_programathor": [
+    "react",
+    "javascript",
+    "figma"
+  ],
+  "_comentario_termos_busca_vagascom": "Terceira fonte (Vagas.com, fontes/vagas.js) usa o slug da URL (`/vagas-de-{slug}`) como termo de busca. Evite termo genérico demais (ex. 'produto', 'dados' sozinhos) — retorna centenas de vagas fora de escopo e desperdiça paginação/rede.",
+  "termos_busca_vagascom": [
+    "design",
+    "ux",
+    "front-end",
+    "react"
+  ],
+  "_comentario_termos_aderencia": "Peso por termo, 0-25; lib/score-mercado.js soma os pesos de todos os termos que baterem (match por fronteira de palavra — evita falso positivo tipo 'ux' dentro de 'auxiliar') e CAPA no teto TETO_ADERENCIA (ver lib/score-mercado.js). `area`/`subarea` do termo de MAIOR peso entre os que bateram vira a área/subárea do registro. Termo COMPOSTO específico erra menos que termo solto — 'design' sozinho, por exemplo, bate em vaga de outra área que só cita a palavra de passagem; prefira frases mais específicas da sua área ao recalibrar.",
+  "termos_aderencia": [
+    { "termo": "inteligência artificial", "area": "IA/Agentes", "subarea": "Inteligência Artificial", "peso": 25 },
+    { "termo": "machine learning", "area": "IA/Agentes", "subarea": "Machine Learning", "peso": 22 },
+    { "termo": "ux", "area": "UX/Produto", "subarea": "UX", "peso": 20 },
+    { "termo": "product designer", "area": "UX/Produto", "subarea": "Product Design", "peso": 22 },
+    { "termo": "front-end", "area": "Front-end", "subarea": "Front-end", "peso": 20 },
+    { "termo": "react", "area": "Front-end", "subarea": "React", "peso": 14 }
+  ]
+}

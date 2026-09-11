@@ -1,0 +1,28 @@
+{
+  "_comentario": "TEMPLATE — copie este arquivo para config/perfil.json e preencha com o SEU perfil antes de rodar o radar. Nenhum valor abaixo é recomendação; são placeholders neutros só para mostrar a forma esperada. lib/elegibilidade.js lê titulacao_atual/area_mestrado/area_graduacao daqui para decidir 'elegivel_agora' vs 'elegivel_futuro' vs 'a_verificar_na_banca' por vaga.",
+  "titulacao_atual": "a_confirmar",
+  "titulacao_atual_valores_possiveis": [
+    "graduacao",
+    "especializacao",
+    "mestrado_incerto",
+    "mestrado_confirmado",
+    "doutorado_incerto",
+    "doutorado_concluido"
+  ],
+  "_comentario_titulacao_atual": "Preencha com o seu estágio real de titulação, usando um dos valores de 'titulacao_atual_valores_possiveis'. lib/elegibilidade.js só trata uma vaga como 'elegivel_agora' quando este campo confirma o grau exigido pelo edital — deixar em 'a_confirmar' (ou qualquer valor fora da lista) faz o robô tratar toda vaga de mestrado/doutorado como incerta.",
+  "area_mestrado": "a_confirmar",
+  "_comentario_area_mestrado": "Nome livre da sua área de mestrado (ex.: 'Design', 'Ciência da Computação'). Preenchido ou não, quem decide compatibilidade de área é config/keywords.json (categorias 'area'/'subarea') — ver lib/elegibilidade.js avaliarAreaCompativel(). Deixe 'a_confirmar' se ainda não tiver título de mestre.",
+  "area_graduacao": "a_confirmar",
+  "_comentario_area_graduacao": "Mesma lógica da área de mestrado, mas para a graduação — importa sobretudo para vagas EBTT (professor substituto de Instituto Federal, Lei 12.772/2012) que exigem graduação em área específica, não qualquer bacharelado.",
+  "geografia_preferencial_uf": [],
+  "_comentario_geografia_preferencial_uf": "Lista de siglas de UF (ex. ['SP', 'RJ']) se você tiver preferência geográfica; vazio = aceita qualquer UF. Nenhum código lê este campo hoje (é só documentação/config futura) — a rubrica de score (lib/score.js) não pondera geografia.",
+  "ollama": {
+    "_comentario_modelo": "Config do modelo local (Ollama) usado por lib/extrator-llm.js para ler edital ambíguo (extração de titulação quando o texto não é claro). Rode `ollama list` na sua máquina e ajuste 'modelo'/'modelo_fallback' para o que você tiver instalado — os nomes abaixo são só exemplo.",
+    "habilitado": true,
+    "host": "http://localhost:11434",
+    "modelo": "SEU_MODELO_PRINCIPAL",
+    "modelo_fallback": "SEU_MODELO_FALLBACK",
+    "_comentario_timeout": "timeout_ms cobre o cold-start do modelo principal na GPU/CPU. Meça o cold-start real na sua máquina (primeira chamada após o serviço subir) e dê folga — um timeout curto demais faz o extrator cair no fallback por engano, não por o modelo estar indisponível de verdade.",
+    "timeout_ms": 60000
+  }
+}

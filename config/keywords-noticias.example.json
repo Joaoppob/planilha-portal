@@ -1,0 +1,12 @@
+{
+  "_comentario": "TEMPLATE — copie para config/keywords-noticias.json e RECALIBRE. Vocabulário da trilha NOTÍCIA. SUPLEMENTO de config/keywords.json + config/perfil.json (lib-noticias/ranking.js lê como BASE do perfil_bump), nunca substituto — o vocabulário de busca de VAGA não é o mesmo de relevância de NOTÍCIA (um termo bom pra achar vaga, tipo o nome de uma stack, tende a ser ruim aqui; notícia quer palavra de ACONTECIMENTO: 'lançamento', 'modelo novo', 'pesquisa'). O conjunto abaixo é um exemplo pequeno — troque pelos termos do SEU perfil e da sua área de interesse.",
+  "_comentario_sintaxe": "Termo terminado em '*' é PREFIXO; o resto é fronteira de palavra exata (mesma técnica de lib/keyword-filtro.js contemTermo). Termo SEM '*' é fronteira exata, o que impede 'ia' de bater dentro de 'guia'. Todos os termos são comparados contra o título JÁ NORMALIZADO (minúsculo, sem acento) — por isso as entradas aqui aparecem sem acento.",
+  "teto_perfil_bump": 40,
+  "_comentario_teto": "40 é o teto sugerido (score = repercussão 0-60 + perfil_bump 0-40). A soma dos pesos é capada nele — sem teto, um título que cita muitos termos do seu perfil enterraria uma notícia de repercussão massiva; a doutrina do projeto é que repercussão é o sinal BASE, perfil só empurra dentro da faixa.",
+  "termos_perfil": [
+    { "termo": "ia", "peso": 10, "nota": "exemplo — troque pelo termo mais específico da sua área de interesse" },
+    { "termo": "llm*", "peso": 7 },
+    { "termo": "modelo de linguagem", "peso": 7 },
+    { "termo": "design*", "peso": 9, "nota": "exemplo — cobre design/designer; ajuste pra sua área real" }
+  ]
+}

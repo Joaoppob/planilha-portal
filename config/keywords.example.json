@@ -1,0 +1,21 @@
+{
+  "_comentario": "TEMPLATE — copie para config/keywords.json e RECALIBRE. Lista de termos que definem o filtro estágio 1 (barato) da trilha de vagas docentes. Cada termo carrega a área/subárea que o registro herda caso o termo seja o de maior peso encontrado no texto. O conjunto abaixo é DELIBERADAMENTE PEQUENO e genérico (uma amostra por área) — não é uma lista pronta pra usar: seu perfil real vai precisar de termos próprios (nome exato da sua área, grafias alternativas, sinônimos usados em edital). Rode o robô num backlog pequeno primeiro e ajuste antes de confiar no volume.",
+  "_comentario_ordem": "Dentro de cada cluster de MESMA área, a ORDEM importa — o termo GENÉRICO/catch-all da área deve vir PRIMEIRO, termos mais ESPECÍFICOS depois (ex. 'design' antes de 'design digital'). lib/keyword-filtro.js avaliar() usa essa ordem pra resolver SUBÁREA quando dois+ termos da MESMA área batem no mesmo texto: a área principal continua decidida por peso (nunca muda por causa da ordem), mas a subárea passa a ser a do ÚLTIMO termo da MESMA área que bateu — o mais específico disponível, por convenção de ordenação.",
+  "termos": [
+    { "termo": "design", "area": "Design", "subarea": "Design (geral)" },
+    { "termo": "design digital", "area": "Design", "subarea": "Design Digital" },
+    { "termo": "computação", "area": "Computação/IA", "subarea": "Computação" },
+    { "termo": "inteligência artificial", "area": "Computação/IA", "subarea": "Inteligência Artificial" },
+    { "termo": "tecnologia educacional", "area": "Educação/Ensino", "subarea": "Tecnologia Educacional" }
+  ],
+  "pesos_area": {
+    "_comentario": "Usado no estágio 2 (score) para a componente de aderência de área. Máximo sugerido 40 pontos — ajuste conforme quantas áreas você tem e quanto cada uma pesa pra você.",
+    "Design": 40,
+    "Computação/IA": 30,
+    "Educação/Ensino": 20
+  },
+  "sinonimos_area": {
+    "_comentario": "Mapa de normalização consultado por lib/keyword-filtro.js resolverPesoArea() quando registro.area não bate NENHUMA chave de pesos_area por igualdade exata (ex.: extrator LLM grava o rótulo LITERAL do edital, tipo 'COMPUTAÇÃO', que não é a mesma string da categoria canônica). Chave = grafia observada, normalizada (sem acento, minúscula); valor = categoria canônica que ela representa. NUNCA adicione uma entrada aqui sem abrir o texto original e confirmar que é DE FATO a mesma área — para grafias que batem termo mas são substantivamente outra área, a decisão correta é NÃO mapear (deixar pesoArea cair em 0 é mais honesto que inflar aderência por coincidência de nome).",
+    "computacao": "Computação/IA"
+  }
+}
