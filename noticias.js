@@ -391,7 +391,7 @@ async function comandoColetar(opts) {
       console.log('[' + fonte.id + '] ' + itens.length + ' itens em ' + ((Date.now() - t0) / 1000).toFixed(1) + 's');
     } catch (err) {
       // Uma fonte quebrada não derruba a coleta inteira — mas o erro
-      // aparece, com o formato de falha do D.TAI.
+      // aparece, com o formato de falha padrão deste projeto.
       diagnosticos.push({ fonte: fonte.id, feeds: [], erroFatal: err.message });
       console.error(
         '[falha: coletar ' +

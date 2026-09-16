@@ -1787,7 +1787,7 @@ const PROJETOS_CABECALHO = [
   'quem age', 'prazo', 'movimentou', 'abertas', 'notas',
   // Onda 14 (CRM vivo) — as três colunas que fecham "onde Durin registra a
   // etapa concluída". APÊNDICE no fim (L:N), nunca no meio: os dois projetos
-  // digitados de JB (JB.STUDIO, Faculdade) têm dado real nas colunas A-K, e
+  // digitados de JB (Projeto pessoal, Faculdade) têm dado real nas colunas A-K, e
   // `construir.js` já tem o mecanismo de migração por NOME pra `Projetos`
   // (§3b) — ele preserva qualquer ordem, mas apêndice puro nem precisa
   // exercitá-lo pra nada além de "cabeçalho novo, colunas velhas na mesma

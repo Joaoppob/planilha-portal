@@ -141,7 +141,7 @@ $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $bat = Join-Path $scriptDir "rodar-diario.bat"
 
 if (-not (Test-Path $bat)) {
-    Write-Error "rodar-diario.bat nao encontrado em $scriptDir - rode este script de dentro de Academico/radar/."
+    Write-Error "rodar-diario.bat nao encontrado em $scriptDir - rode este script de dentro da pasta do projeto."
     exit 1
 }
 
@@ -190,8 +190,8 @@ $principalInteractive = New-ScheduledTaskPrincipal -UserId $env:USERNAME -LogonT
 # 30min (noticia) = 75min.
 $configuracoes = New-ScheduledTaskSettingsSet -StartWhenAvailable -DontStopOnIdleEnd -MultipleInstances IgnoreNew -ExecutionTimeLimit (New-TimeSpan -Minutes 75)
 
-$descricaoS4U = "Radar de oportunidades academicas + noticias (D.TAI) - guarda por janela deslizante DIFERENCIADA por trilha (vaga=2h, noticia=8h, ver lib/guarda-janela.js); gatilho repetitivo a cada 2h, 24h/dia, S4U (roda sem sessao interativa). Desligar: Unregister-ScheduledTask -TaskName RadarAcademicoJB"
-$descricaoInteractive = "Radar de oportunidades academicas + noticias (D.TAI) - guarda por janela deslizante DIFERENCIADA por trilha (vaga=2h, noticia=8h, ver lib/guarda-janela.js); gatilho repetitivo a cada 2h, 24h/dia. LogonType=Interactive (S4U pendente - rode este script elevado/Administrador para trocar; ver comentario acima da criacao do Principal). Desligar: Unregister-ScheduledTask -TaskName RadarAcademicoJB"
+$descricaoS4U = "Radar de oportunidades academicas + noticias - guarda por janela deslizante DIFERENCIADA por trilha (vaga=2h, noticia=8h, ver lib/guarda-janela.js); gatilho repetitivo a cada 2h, 24h/dia, S4U (roda sem sessao interativa). Desligar: Unregister-ScheduledTask -TaskName RadarAcademicoJB"
+$descricaoInteractive = "Radar de oportunidades academicas + noticias - guarda por janela deslizante DIFERENCIADA por trilha (vaga=2h, noticia=8h, ver lib/guarda-janela.js); gatilho repetitivo a cada 2h, 24h/dia. LogonType=Interactive (S4U pendente - rode este script elevado/Administrador para trocar; ver comentario acima da criacao do Principal). Desligar: Unregister-ScheduledTask -TaskName RadarAcademicoJB"
 
 $logonTypeAplicado = "S4U"
 try {

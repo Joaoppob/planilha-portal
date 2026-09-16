@@ -227,18 +227,18 @@ O orçamento de cor de `verificar.js` mede `Tarefas` (0/2) e `Candidaturas` (0/0
 que possa acender. A superfície que está em 100% sinaliza por **glifo**, e por isso passou
 inteira pelo medidor. O orçamento mede o mecanismo, não o sinal.
 
-Sinal aceso em 100% da população não é sinal. E `JB.STUDIO` está com `estágio = 🔨 tocando`,
+Sinal aceso em 100% da população não é sinal. E `Projeto pessoal` está com `estágio = 🔨 tocando`,
 `próximo passo = Finalizar animação de mascote`, e a árvore do repositório mostra trabalho de
 mascote de hoje. O alarme está **errado**, não só saturado.
 
 Efeito colateral de rotulagem, na mesma linha: `estágio = ⏸️ parado` (digitado) e
-`saúde = 🔴 parado` (derivado) — duas colunas, a mesma palavra, dois conceitos. E `JB.STUDIO`
+`saúde = 🔴 parado` (derivado) — duas colunas, a mesma palavra, dois conceitos. E `Projeto pessoal`
 lê `🔨 tocando` + `🔴 parado` lado a lado.
 
 ### 4 · A causa do 100%: a chave nunca casou, e nada na peça diz isso
 
 ```
-Projetos!A  = ["JB.STUDIO", "Faculdade"]
+Projetos!A  = ["Projeto pessoal", "Faculdade"]
 Diário!C    = ["Radar acadêmico — fontes e agendamento", "Portal da planilha — estrutura e Thor"]
 interseção  = ∅
 ```
@@ -419,7 +419,7 @@ que envelhecerão em direções diferentes.
 
 - **`Hoje.pdf`** — a imagem mostra o painel em 4 grupos lado a lado ocupando ~1/3 da altura da
   página. `⏰ VENCE` com 5 editais (UEL duas vezes, idênticas na tela) e nenhuma tarefa;
-  `⏳ TAREFAS` com 2 linhas "— sem prazo —"; `📌 PROJETOS` com JB.STUDIO/tocando e
+  `⏳ TAREFAS` com 2 linhas "— sem prazo —"; `📌 PROJETOS` com Projeto pessoal/tocando e
   Faculdade/parado; `🎯 FILA` com o texto de vazio **e**, abaixo, "+ 989 não cabem aqui";
   `🚧 ATENÇÃO` com "Nada travado"; `🆕 RADAR` com 10 linhas, entre elas UFSJ duas vezes e
   Visagio duas vezes. Nav de 4 links em duas linhas, sem marcador.

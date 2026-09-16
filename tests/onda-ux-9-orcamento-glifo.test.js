@@ -90,7 +90,7 @@ async function main() {
   nota(runTest(
     'FIXTURE pré-Onda-10 (dado ANTIGO — os 2 projetos reais em "🔴 parado", medido em AVALIACAO-UX.md Parte 2 §3): o medidor REPROVA',
     () => {
-      const fixturePre = ['🔴 parado', '🔴 parado']; // JB.STUDIO, Faculdade — estado real antes desta Onda
+      const fixturePre = ['🔴 parado', '🔴 parado']; // Projeto pessoal, Faculdade — estado real antes desta Onda
       const r = medir(fixturePre);
       console.log(`    fixture pré-Onda-10: ${r.acesas}/${r.total} (${Math.round(r.pct * 100)}%, teto ${Math.round(TETO * 100)}%)`);
       assert.strictEqual(r.pct, 1, 'a fixture antiga tem que ser 100% acesa — é o que o defeito media');

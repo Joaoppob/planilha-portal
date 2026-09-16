@@ -1,7 +1,7 @@
 # Referências UX — planilha-portal como produto de uso diário
 
 Pesquisa de mecanismos reais (não adjetivos) para as 20 ondas de UX/usabilidade do
-planilha-portal de JB (`Academico/radar/`, Google Sheets, 14 abas). Cada linha abaixo foi
+planilha-portal de JB (workspace acadêmico privado, Google Sheets, 14 abas). Cada linha abaixo foi
 **aberta de verdade** (curl + pandoc, HTML → texto), nunca inferida do envelope de metadados
 do `web_fetch` (que nesta sessão está degradado — devolve só `status`/`quality` sem corpo).
 

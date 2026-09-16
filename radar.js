@@ -645,7 +645,7 @@ function comandoReprocessar(opts = {}) {
 }
 
 /**
- * Gera Academico/radar/RELATORIO-JB.md — o recorte de leitura humana pra JB
+ * Gera RELATORIO-JB.md — o recorte de leitura humana pra JB
  * (item 3 do briefing Onda 1.7), sobre os itens `fonte === 'dou'` do store
  * (já reprocessados — rodar `reprocessar` antes se ainda não rodou).
  */

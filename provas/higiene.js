@@ -2,8 +2,8 @@
    provas/higiene.js — o que não se vê olhando o arquivo.
        node provas/higiene.js
 
-   Este repositório foi extraído de `Academico/radar/` (d.tai-ecc, projeto
-   PRIVADO de JB). O código é o mesmo; o que não pode atravessar é usuário
+   Este repositório foi extraído de um workspace privado de origem de JB
+   (projeto PRIVADO). O código é o mesmo; o que não pode atravessar é usuário
    Windows, planilha, service account e chat do Telegram REAIS. Espelha o
    padrão de EditorHtml/provas/higiene.js (mesma extração, outro projeto de
    origem) — adaptado ao formato de `provas/termos-privados.json` deste
@@ -126,7 +126,7 @@ ok(CTRL.test('x' + String.fromCharCode(8) + 'y'), 'H1b · positivo: a varredura 
 /* =====================================================================
    H2 · NADA DO PROJETO PRIVADO DE ORIGEM ATRAVESSA
    ===================================================================== */
-console.log('\nH2 · nenhum dado do projeto privado de origem (Academico/radar/)');
+console.log('\nH2 · nenhum dado do projeto privado de origem (workspace acadêmico)');
 /* A LISTA NÃO MORA AQUI, E ISSO É O PONTO. Um varredor que escreve o que
    proíbe PUBLICA a própria lista: quem ler este arquivo aprenderia o
    usuário Windows, a planilha e o chat de origem. Os termos vêm de

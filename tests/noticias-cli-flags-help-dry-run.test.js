@@ -21,8 +21,8 @@
  * cinto de segurança adicional — o incidente original já custou 3 registros
  * em `data/store.jsonl`, a mesma classe de erro não pode se repetir aqui.
  *
- * O caso `recalcular --gravar --dry-run` roda numa CÓPIA efêmera de todo
- * `Academico/radar/` em `os.tmpdir()` (nunca o store real), com um único
+ * O caso `recalcular --gravar --dry-run` roda numa CÓPIA efêmera de toda a
+ * pasta do projeto em `os.tmpdir()` (nunca o store real), com um único
  * registro FABRICADO cujo `score` é implausível (99999) — garante que
  * `recalcular` de fato recalcularia um score diferente, então "nada mudou"
  * só pode significar "o dry-run segurou", nunca "não havia o que mudar".
@@ -61,7 +61,7 @@ function rodarCli(args, cwd = RADAR_DIR) {
 }
 
 /** Mesma técnica de tests/radar-cli-flags-help-dry-run.test.js
- * `copiarRadarSemDados` — cópia efêmera de `Academico/radar/` inteiro, SEM
+ * `copiarRadarSemDados` — cópia efêmera do projeto inteiro, SEM
  * `data/`/`tmp/`/`logs/`/`.env`, com um `data/` novo e vazio que o teste
  * semeia. `noticias.js` resolve seus caminhos via `__dirname` (inclusive
  * `lib-noticias/store-noticias.js STORE_PATH`), então a cópia se comporta

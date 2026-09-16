@@ -12,8 +12,8 @@
  *   2. flag desconhecida (typo tipo `--dry-runn`) sai com código != 0 e não
  *      roda o comando de jeito nenhum — nunca "modo perigoso por engano".
  *   3. `reprocessar --dry-run` de ponta a ponta: mede/imprime o patch mas
- *      não grava — rodado dentro de uma CÓPIA efêmera de todo
- *      `Academico/radar/` em `os.tmpdir()` (nunca o store real; ver
+ *      não grava — rodado dentro de uma CÓPIA efêmera de toda a pasta do
+ *      projeto em `os.tmpdir()` (nunca o store real; ver
  *      `copiarRadarSemDados` abaixo), com um único registro FABRICADO cujo
  *      `score` é propositalmente implausível (12345) para garantir que
  *      `reprocessar` gere pelo menos um patch — é o "antes" que prova que o
@@ -60,7 +60,7 @@ function rodarCli(args, cwd = RADAR_DIR) {
 }
 
 /**
- * Cópia efêmera de todo `Academico/radar/` para `os.tmpdir()`, SEM
+ * Cópia efêmera de todo o projeto para `os.tmpdir()`, SEM
  * `data/` (fica com um `data/` novo, vazio, que o próprio teste semeia),
  * SEM `tmp/`/`logs/` (grandes, irrelevantes) e SEM `.env` (tem credencial
  * real — este teste nunca faz rede, não precisa dela, e não faz sentido

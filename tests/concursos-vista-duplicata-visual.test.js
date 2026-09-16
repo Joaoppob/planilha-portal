@@ -46,7 +46,7 @@
  * LEGÍTIMOS (subárea já diferia); UEM (3 subeditais colapsando em
  * "Computação") e UFSCar (São Carlos ×4, Sorocaba ×2, São José do Rio Preto
  * ×2, do edital nº 4/2026) eram DEFEITO — 4 grupos/11 registros no total.
- * Ver `Academico/radar/RELATORIO-ONDA-1-2.md` §2a para a tabela completa.
+ * Ver `RELATORIO-ONDA-1-2.md` §2a para a tabela completa.
  */
 
 const assert = require('assert');
