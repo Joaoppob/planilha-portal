@@ -1,18 +1,16 @@
 # planilha-portal
 
-Uma planilha que deixa de ser arquivo e vira interface viva, alimentada por um robô que nunca dorme.
+Um CRM pessoal em Google Sheets: hub de notícia, vaga e tarefa, o ponto de encontro entre você e seu agente.
 
 ## Se você é humano, leia aqui
 
-Pense em alguém procurando vaga: professor substituto, concurso público, emprego em tecnologia. O dia começa sempre igual: abrir cinco abas, o Diário Oficial, o Gupy, o site da universidade, o grupo do Telegram, ver o que mudou desde ontem. Na maior parte dos dias não muda nada. Uma vez por mês muda o que importa, e raramente alguém está olhando bem naquela hora.
+Esta planilha é um CRM pessoal dentro do Google Sheets: um hub de notícia, vaga e concurso (oportunidade), tarefa e projeto, tudo numa peça só, em vez de espalhado em abas soltas de navegador.
 
-Esse projeto troca a vigília manual por um robô. Ele lê os editais, as vagas e os feeds de notícia todo santo dia, sozinho, e escreve o que achou numa planilha do Google. Não é um painel que você abre torcendo pra estar atualizado: é uma tarefa agendada rodando no seu próprio computador, sem servidor de terceiro guardando currículo nenhum.
+Três camadas dividem o trabalho por dono. Um robô roda como tarefa agendada no seu próprio computador e escreve o que é fato: a vaga que saiu, a notícia do dia, se você já é elegível pra aquele edital. A própria planilha deriva desses fatos as vistas que você lê: ranking, funil, painel do dia. E você, com seu agente, escreve a terceira camada: tarefa, fila de candidatura, projeto, diário de decisão. Essa parte é território exclusivo de vocês dois.
 
-A ideia que sustenta tudo é dividir o trabalho por dono. O robô cuida do que é fato: o que saiu, quando saiu, se você já é elegível pra aquilo. Você cuida do que é decisão: se aplicou, em que fase está, o que anotou depois da entrevista. Cada lado mexe só na própria parte, e é isso que impede a planilha de virar bagunça: um nunca sobrescreve o trabalho do outro.
+É esse desenho que faz da planilha um ponto de encontro entre você e seu agente: você decide o que fazer, o agente ajuda a registrar e organizar a decisão, e o robô alimenta os dois com fato atualizado todo dia. Se a planilha for apagada por engano, a estrutura inteira (aba, fórmula, formatação) volta a partir do código; o conteúdo digitado na camada de decisão é o único que precisaria ser refeito à mão.
 
-E se a planilha sumir, alguém apagar sem querer, isso não é uma perda. O robô sabe reconstruir a estrutura inteira, aba por aba, fórmula por fórmula, a partir do próprio código. A planilha é a vitrine; o que importa mora em outro lugar e pode ser refeito.
-
-Um aviso de honestidade, porque promessa fácil não é o estilo daqui: isso não é um produto pronto pra qualquer pessoa instalar e usar em cinco minutos. É o radar que nasceu do meu próprio caso, professor atrás de vaga docente, e virou modelo. Pra funcionar pra você, alguém precisa criar a própria planilha, a própria credencial do Google, e sobretudo recalibrar os critérios: que área importa, que palavras identificam uma vaga boa, que instituição interessa. Sem isso o robô até roda, mas não sabe o que está procurando.
+Aviso prático: isto não é um produto pronto pra instalar e rodar em cinco minutos. Alguém precisa criar a própria planilha, a própria credencial do Google, e calibrar os próprios critérios (área de interesse, palavra-chave de vaga boa, instituição relevante). Sem isso o robô roda, mas não sabe o que está procurando.
 
 ## Se você é um Agente, leia aqui
 
@@ -38,7 +36,7 @@ Contrato operacional. Precisão, não persuasão.
 
 - **FATO**: dado cru. Abas `dados (não edite)` e `notícias (não edite)`, mais `_calc`/`_estado` (auxiliares, também FATO). Só o robô escreve, via `radar.js sincronizar-sheets` / `noticias.js sincronizar-sheets` e `lib/sheets.js`. Cada sync sobrescreve a aba inteira.
 - **VISTA**: fórmula pura derivada de FATO: `Concursos`, `Empregos`, `Concursos · tudo`, `Hoje`, `Notícias`, `IA`, `Trabalho`, `Ciência`. Nenhum valor é digitado nelas; a fórmula em si só é escrita por `_norman/construir.js`, na construção ou reconstrução da planilha.
-- **ESTADO**: só o humano escreve: `Tarefas`, `Fila`, `Candidaturas`, `Projetos`, `Diário`, `Etapas`. A aba oculta `_estado` é a única cópia persistente do que foi marcado (ex.: "Inscrito"), e sobrevive à reescrita diária de FATO/VISTA.
+- **ESTADO**: escrita pela pessoa, ou pelo agente dela a pedido, e nunca pelo robô de coleta: `Tarefas`, `Fila`, `Candidaturas`, `Projetos`, `Diário`, `Etapas`. A aba oculta `_estado` é a única cópia persistente do que foi marcado (ex.: "Inscrito"), e sobrevive à reescrita diária de FATO/VISTA.
 
 ### Comandos exatos
 
@@ -95,6 +93,6 @@ Instalação completa: `SETUP.md`. Anatomia das 18 abas (camada, fórmula, dono)
 
 ## Licença e autoria
 
-João Pedro Barros. Este repositório não declara licença hoje: não há arquivo `LICENSE` nem campo `license` em `package.json` (`[a verificar: licença]`). Até essa decisão ser tomada, trate o código como todos os direitos reservados.
+João Pedro Barros. Este repositório é distribuído sob **MIT**. Texto completo em [`LICENSE`](LICENSE); `package.json` declara `"license": "MIT"`.
 
 Disclaimer: Foi utilizada IA para: escrita deste README; Modelo: Claude Sonnet 5.
